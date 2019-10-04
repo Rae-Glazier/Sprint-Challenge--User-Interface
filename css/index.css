@@ -65,6 +65,19 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+body{
+    border: 3px solid purple;
+}
+header nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+header .freeway{
+   display: block;
+   margin: auto;
+   width: 83%;
+   padding: 2% 0;
+}
 
 .container {
     width: 800px;
