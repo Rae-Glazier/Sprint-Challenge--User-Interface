@@ -188,3 +188,11 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* About Page CSS */
+.skyline{
+    display: block;
+    margin: auto;
+    width: 83%;
+    padding: 2% 0;
+}
