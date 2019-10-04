@@ -196,3 +196,42 @@ footer nav a {
     width: 83%;
     padding: 2% 0;
 }
+.about{
+    display: flex;
+    border-bottom: 2px dashed black;
+    padding-bottom: 3%;
+}
+.middle{
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 2px dashed black;
+}
+.middle2{
+    display: flex;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-bottom: 2px dashed black;
+}
+.middle .strategy p{
+    padding-bottom: 5%;
+}
+
+.middle .how-we-work p{
+    padding-bottom: 5%;
+}
+.middle .strategy .button{
+    margin-bottom: 5px;
+}
+.button{
+    display: inline;
+    border: 2px solid black;
+    padding: 3px;
+    border-radius: 15px;
+}
+.middle2 .places-we-work p{
+    padding-bottom: 5%;
+}
+.middle2 .collaboration p{
+    padding-bottom: 5%;
+}
