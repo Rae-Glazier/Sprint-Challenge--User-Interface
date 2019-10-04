@@ -104,10 +104,19 @@ header .freeway{
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
+@keyframes box{
+    0% {color: black; border-bottom: 2px dotted red;}
+    25% {color: red; border-bottom: 2px dotted black;}
+    50% {color: black; border-bottom: 2px dotted red;}
+    100% {color: red; border-bottom: 2px dotted black;}
+}
 .middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
+    display: inline;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 .middle-content .boxes {
@@ -190,6 +199,7 @@ footer nav a {
 }
 
 /* About Page CSS */
+
 .skyline{
     display: block;
     margin: auto;
