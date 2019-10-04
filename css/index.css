@@ -68,6 +68,11 @@ p {
 header nav{
     display: flex;
     justify-content: space-evenly;
+    margin-top: 2%;
+}
+header a{
+    text-decoration: none;
+    color: black;
 }
 header .freeway{
    display: block;
