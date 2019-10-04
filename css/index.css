@@ -229,12 +229,20 @@ footer nav a {
 .middle .strategy .button{
     margin-bottom: 5px;
 }
+@keyframes stretch{
+    0% {background-color: white;}
+    25% {background-color: silver; color:whitesmoke;}
+    50% {background-color: darkslategray; color: white;} 
+}
 .button{
     display: inline;
     border: 2px solid black;
     padding: 5px 15px;
     border-radius: 10px;
     font-size: 16px;
+    animation-name: stretch;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 .middle2 .places-we-work{
     padding-bottom: 5%;
